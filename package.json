@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "start:dev": "npx nodemon --watch 'src/**/*.ts' --exec 'npx ts-node' server.ts"
+  },
   "devDependencies": {
     "@types/node": "^20.4.4",
     "nodemon": "^3.0.1",
